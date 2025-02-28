@@ -28,7 +28,8 @@ a {
     display: flex;
 }
 
-.header-logo {
+.header-logo,
+.hero-secondary {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -39,7 +40,11 @@ a {
     font-weight: 900;
 }
 
-.hero-secondary {
-    font-size: 24px;
+button {
+    background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
 }
