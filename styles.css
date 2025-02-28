@@ -30,6 +30,17 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-top ul {
+    display: flex;
+    gap: 16px;
 }
 
 .header-logo,
