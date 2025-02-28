@@ -1,15 +1,17 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto';
 }
 
 body {
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -21,8 +23,7 @@ a {
     display: flex;
 }
 
-.header {
-    font-size: 48px;
+.header-logo {
+    font-size: 24px;
     color: #F9FAF8;
-    font-weight: 900;
 }
