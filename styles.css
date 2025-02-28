@@ -18,12 +18,28 @@ a {
     text-decoration: none;
 }
 
+.hero-top a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
 }
 
 .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary {
     font-size: 24px;
     color: #F9FAF8;
 }
