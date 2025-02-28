@@ -38,6 +38,11 @@ a {
     justify-content: space-between;
 }
 
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .hero-top ul {
     display: flex;
     gap: 16px;
