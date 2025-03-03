@@ -94,6 +94,14 @@ button {
 
 .info {
     display: flex;
+    max-width: 200px;
+}
+
+.second .header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
 }
 
 .second img {
