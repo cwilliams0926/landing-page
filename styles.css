@@ -22,6 +22,8 @@ a {
     text-decoration: none;
 }
 
+/* First section */
+
 .hero-top a {
     font-size: 18px;
     color: #E5E7EB;
@@ -30,18 +32,21 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    padding: 0px 128px 0px;
+    padding: 24px 156px 156px;
+    gap: 48px;
 }
 
 .hero-top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .hero-content {
     display: flex;
-    justify-content: space-between;
+    gap: 64px;
 }
 
 .hero-top ul {
@@ -49,23 +54,35 @@ a {
     gap: 16px;
 }
 
-.header-logo,
-.hero-secondary {
+.header-logo {
+    font-weight: 900;
     font-size: 24px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.header-logo,
+.hero-main,
+button {
     color: #F9FAF8;
 }
 
 .hero-main {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
 button {
     background-color: #3882F6;
-    color: #F9FAF8;
     border-radius: 5px;
     border: 0;
-    width: 80px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
 }
+
+/* End first section */
