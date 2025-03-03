@@ -91,3 +91,14 @@ button {
 }
 
 /* End first section */
+
+.info {
+    display: flex;
+}
+
+.second img {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    border: solid 4px #3882F6;
+}
