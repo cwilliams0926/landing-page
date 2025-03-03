@@ -85,4 +85,9 @@ button {
     font-weight: 700;
 }
 
+.hero img {
+    height: 250px;
+    width: 1126px;
+}
+
 /* End first section */
