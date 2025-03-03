@@ -97,11 +97,16 @@ button {
     max-width: 200px;
 }
 
+.text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
 .second .header {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .second img {
