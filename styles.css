@@ -131,18 +131,23 @@ button {
 .third {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    padding: 72px 248px 72px;
+    gap: 16px;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     color: #1F2937;
     font-style: italic;
 }
 
 .name {
+    display: flex;
     font-size: 24px;
     font-weight: 700;
     color: #1F2937;
+    justify-content: flex-end;
 }
 
