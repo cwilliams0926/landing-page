@@ -169,10 +169,15 @@ button {
 }
 
 .content {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    margin: 52px;
+    margin: 72px;
+    padding: 36px 96px;
 }
 
 .fourth button {
