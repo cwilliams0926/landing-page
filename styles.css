@@ -93,11 +93,10 @@ button {
 /* End first section */
 
 .info {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .text {
-    font-size: 18px;
     color: #1F2937;
 }
 
@@ -106,6 +105,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 32px;
 }
 
 .second img {
@@ -113,4 +113,11 @@ button {
     width: 150px;
     border-radius: 16px;
     border: solid 4px #3882F6;
+}
+
+.second .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
 }
