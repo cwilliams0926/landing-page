@@ -92,6 +92,10 @@ button {
 
 /* End first section */
 
+.second {
+    margin: 52px;
+}
+
 .info {
     max-width: 150px;
 }
@@ -105,7 +109,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 32px;
+    margin-bottom: 52px;
 }
 
 .second img {
